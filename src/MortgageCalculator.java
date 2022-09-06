@@ -8,7 +8,7 @@ public class MortgageCalculator {
 		long principalAmount = sc.nextLong();
 		
 		while(principalAmount > 1000000 || principalAmount < 1000) {
-			System.out.print("Input valid loan amount (₹1000 - ₹1000000): ");
+			System.err.print("Input valid loan amount (₹1000 - ₹1000000): ");
 			principalAmount = sc.nextLong();
 		}
 		
@@ -16,7 +16,7 @@ public class MortgageCalculator {
 		double interest = sc.nextDouble();
 		
 		while(interest > 34 || interest < 20) {
-			System.out.print("Input valid annual interest Rate (20% - 34%): ");
+			System.err.print("Input valid annual interest Rate (20% - 34%): ");
 			interest = sc.nextDouble();
 		}
 		
@@ -24,7 +24,7 @@ public class MortgageCalculator {
 		int years = sc.nextInt();
 		
 		while(years > 10 || years < 3) {
-			System.out.print("Input valid time period (3 - 10 years): ");
+			System.err.print("Input valid time period (3 - 10 years): ");
 			years = sc.nextInt();
 		}
 		
