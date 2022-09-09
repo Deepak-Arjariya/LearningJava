@@ -1,6 +1,6 @@
 package in.aubank.inheritence;
 
-public class C extends B {
+public abstract class C extends B {
 		int z = 30;
 		
 		C(){

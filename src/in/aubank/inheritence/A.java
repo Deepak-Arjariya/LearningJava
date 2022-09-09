@@ -1,9 +1,10 @@
 package in.aubank.inheritence;
 
-public class A {
+public abstract class A {
 	
 	int x = 10;
 	
+	public abstract void implement();
 	A(){
 		System.out.println("A - ()");
 	}
